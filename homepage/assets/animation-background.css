@@ -1,0 +1,143 @@
+body{
+    position: relative;
+}
+.circle1{
+    width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background: #a8d2ec;
+    top: 60%;
+    left: 10%;
+    position: absolute;
+    z-index: -50;
+    animation: moving1 15s infinite;
+    box-shadow: 4px 4px  rgb(7, 126, 56) inset;
+}
+
+.circle2{
+    width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background: #a3d2f0;
+    top: 48%;
+    right: 10%;
+    position: absolute;
+    z-index: -50;
+    animation: moving1 15s infinite;
+    box-shadow: 4px 4px  rgb(163, 199, 178) inset;
+}
+
+.circle3{
+    width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background: #9ec3da;
+    top: 79%;
+    left: 18%;
+    position: absolute;
+    z-index: -50;
+    animation: moving2 15s infinite;
+    box-shadow: -4px -4px  rgb(140, 206, 168) inset;
+}
+
+.circle4{
+    width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background: #aecde0;
+    top: 45%;
+    left: 42%;
+    position: absolute;
+    z-index: -50;
+    animation: moving2 15s infinite;
+    box-shadow: 4px 4px  rgb(28, 118, 236) inset;
+}
+
+.triangle1{
+    border-bottom: 90px solid #f1b5e7;
+	border-right: 30px solid transparent;
+	border-left: 30px solid transparent;
+    transform: rotate(90deg);
+    z-index: -50;
+    top: 35%;
+    left: 10%;
+    animation: moving3 10s infinite;
+    box-shadow: 10px 10px rgb(109, 50, 89) inset;
+    position: absolute;
+}
+
+.triangle2{
+    border-bottom: 90px solid #f3bbea;
+	border-right: 30px solid transparent;
+	border-left: 30px solid transparent;
+    transform: rotate(90deg);
+    z-index: -50;
+    top: 50%;
+    right: 25%;
+    animation: moving3 10s infinite;
+    box-shadow: 10px 10px rgb(99, 4, 67) inset;
+    position: absolute;
+}
+
+.triangle3{
+    border-bottom: 90px solid #e29bd6;
+	border-right: 30px solid transparent;
+	border-left: 30px solid transparent;
+    transform: rotate(90deg);
+    z-index: -50;
+    top: 80%;
+    right: 25%;
+    animation: moving3 10s infinite;
+    box-shadow: 10px 10px rgb(71, 2, 48) inset;
+    position: absolute;
+}
+
+@keyframes moving1{
+    25%{
+        transform: translateX(30px);
+        transform: translateY(50px);
+    }
+
+    75%{
+        transform: translateX(-40px);
+        transform: translateY(-60px);
+    }
+
+    100%{
+        transform: translateX(0px);
+        transform: translateY(0px);
+    }
+}
+
+@keyframes moving2{
+    25%{
+        transform: translateX(-60px);
+        transform: translateY(-80px);
+    }
+
+    50%{
+        transform: translateY(40px);
+    }
+
+    77%{
+        transform: translate(40px,50px,0);
+    }
+
+    100%{
+        transform: translate(0px,0px);
+    }
+}
+
+@keyframes moving3{
+    30%{
+        transform: rotate(100deg);
+    }
+
+    70%{
+        transform: rotate(115deg);
+    }
+
+    100%{
+        transform: rotate(90deg);
+    }
+}
