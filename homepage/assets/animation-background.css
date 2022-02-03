@@ -2,59 +2,85 @@ body{
     position: relative;
 }
 .circle1{
-    width: 30px;
-	height: 30px;
+    width: 50px;
+	height: 50px;
 	border-radius: 50%;
-	background: #a8d2ec;
+    background: linear-gradient(to top left,rgb(187, 221, 235),rgb(4, 4, 77));
     top: 60%;
-    left: 10%;
+    left: 15%;
     position: absolute;
     z-index: -50;
     animation: moving1 15s infinite;
-    box-shadow: 4px 4px  rgb(7, 126, 56) inset;
+    box-shadow: 4px 4px  rgb(2, 70, 30) inset;
 }
 
 .circle2{
-    width: 30px;
-	height: 30px;
+    width: 40px;
+	height: 40px;
 	border-radius: 50%;
-	background: #a3d2f0;
+	background: linear-gradient(to bottom right,rgb(241, 241, 177),rgb(143, 143, 243));
     top: 48%;
     right: 10%;
     position: absolute;
     z-index: -50;
     animation: moving1 15s infinite;
-    box-shadow: 4px 4px  rgb(163, 199, 178) inset;
+    box-shadow: 2px 2px  rgb(21, 44, 31);
 }
 
 .circle3{
-    width: 30px;
-	height: 30px;
+    width: 40px;
+	height: 40px;
 	border-radius: 50%;
-	background: #9ec3da;
+	background:linear-gradient(to top right,rgb(245, 112, 112),rgb(85, 107, 6));
     top: 79%;
     left: 18%;
     position: absolute;
     z-index: -50;
     animation: moving2 15s infinite;
-    box-shadow: -4px -4px  rgb(140, 206, 168) inset;
+    box-shadow: -1px -1px  rgb(16, 102, 52) inset;
 }
 
 .circle4{
-    width: 30px;
-	height: 30px;
+    width: 45px;
+	height: 45px;
 	border-radius: 50%;
-	background: #aecde0;
+	background: linear-gradient(to top left,rgb(248, 248, 248),rgb(73, 72, 72));
     top: 45%;
-    left: 42%;
+    left: 25%;
     position: absolute;
     z-index: -50;
     animation: moving2 15s infinite;
-    box-shadow: 4px 4px  rgb(28, 118, 236) inset;
+    box-shadow: -2px -2px  rgb(18, 18, 19);
+}
+
+.circle5{
+    width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	background: linear-gradient(to top left,rgb(69, 209, 127),rgb(126, 217, 230));
+    top: 65%;
+    right: 20%;
+    position: absolute;
+    z-index: -50;
+    animation: moving1 15s infinite;
+    box-shadow: 2px 2px  rgb(130, 130, 240);
+}
+
+.circle6{
+    width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	background: linear-gradient(to bottom right,rgb(223, 152, 185),rgb(87, 19, 81));
+    top: 35%;
+    right: 10%;
+    position: absolute;
+    z-index: -50;
+    animation: moving1 15s infinite;
+    box-shadow: -2px -2px  rgb(130, 130, 240) inset;
 }
 
 .triangle1{
-    border-bottom: 90px solid #f1b5e7;
+    border-bottom: 90px solid #bbb4ba;
 	border-right: 30px solid transparent;
 	border-left: 30px solid transparent;
     transform: rotate(90deg);
@@ -67,7 +93,7 @@ body{
 }
 
 .triangle2{
-    border-bottom: 90px solid #f3bbea;
+    border-bottom: 90px solid #5abce9;
 	border-right: 30px solid transparent;
 	border-left: 30px solid transparent;
     transform: rotate(90deg);
@@ -80,7 +106,7 @@ body{
 }
 
 .triangle3{
-    border-bottom: 90px solid #e29bd6;
+    border-bottom: 90px solid #686467;
 	border-right: 30px solid transparent;
 	border-left: 30px solid transparent;
     transform: rotate(90deg);
@@ -94,13 +120,11 @@ body{
 
 @keyframes moving1{
     25%{
-        transform: translateX(30px);
-        transform: translateY(50px);
+        transform: translate(30px,-50px);
     }
 
     75%{
-        transform: translateX(-40px);
-        transform: translateY(-60px);
+        transform: translateX(40px,-60px);
     }
 
     100%{
@@ -111,8 +135,7 @@ body{
 
 @keyframes moving2{
     25%{
-        transform: translateX(-60px);
-        transform: translateY(-80px);
+        transform: translate(-60px,-80px);
     }
 
     50%{
