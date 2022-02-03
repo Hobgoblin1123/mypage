@@ -207,10 +207,10 @@ s
 #prevBtn{
   color: blue;
   background-color: rgb(189, 243, 225);
-  width: 90px;
-  height: 30px;
-  line-height:30px;
-  font-size: 20px;
+  width: 120px;
+  height: 50px;
+  line-height:50px;
+  font-size: 30px;
   font-weight: bold;
   border-radius: 20px;
   border-color: white;
@@ -239,10 +239,10 @@ s
 #nextBtn{
   color: blue;
   background-color: rgb(189, 243, 225);
-  width: 90px;
-  height: 30px;
-  line-height:30px;
-  font-size: 20px;
+  width: 120px;
+  height: 50px;
+  line-height:50px;
+  font-size: 30px;
   font-weight: bold;
   border-radius: 20px;
   border-color: white;
@@ -261,10 +261,15 @@ footer{
   text-align: center;
 }
 
+#map iframe{
+  margin-top: 50px;
+  border-radius: 10%;
+}
+
 footer img{
   width: 35px;
   height: 35px;
-  border-radius:80px ;
+  border-radius:50%;
 }
 
 #anniversary{
