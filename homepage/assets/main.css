@@ -58,14 +58,27 @@
 
 .introduce h1{
   margin-top: 30px;
+  font-size: 70px;
+  text-shadow: black -3px -3px;
+  color: gray;
+  font-weight: bolder;
 }
 
 .introduce h2{
  padding: 14px;
+ margin-top: 8%;
+ font-size: 42px;
+ color: rgb(145, 146, 145);
+ font-weight: bold;
+ text-shadow: black -1.5px -1.5px;
+
 }
 
 .introduce li{
-  font-size: 20px;
+  margin-top: 5%;
+  font-size: 30px;
   padding:10px;
+  color: rgb(145, 146, 145);
   font-weight: bold;
+  text-shadow: black -1.5px -1.5px;
 }

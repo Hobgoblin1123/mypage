@@ -93,13 +93,13 @@ body{
 }
 
 .triangle2{
-    border-bottom: 90px solid #5abce9;
-	border-right: 30px solid transparent;
-	border-left: 30px solid transparent;
+    border-bottom: 120px solid #5abce9;
+	border-right: 40px solid transparent;
+	border-left: 40px solid transparent;
     transform: rotate(90deg);
     z-index: -50;
-    top: 50%;
-    right: 25%;
+    top: 47.5%;
+    right: 29%;
     animation: moving3 10s infinite;
     box-shadow: 10px 10px rgb(99, 4, 67) inset;
     position: absolute;
