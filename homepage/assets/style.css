@@ -10,7 +10,7 @@ body{
 }
 
 .top{
-  background-image: url("image/header1.jpg");
+  background-image: url("image/header-3.jpg");
   background-size: inherit;
   display: flex;
   width: 100%;
@@ -96,8 +96,8 @@ body{
   justify-content: center;
   align-items: center;
   z-index: 200;
-  background-color: gray;
-  border: solid 1px yellowgreen;
+  background-color:rgb(205, 237, 247);
+  border: solid 1.5px  rgb(5, 8, 131);
   border-radius: 10px;
 }
 .menu-btn span,
@@ -108,7 +108,7 @@ body{
   height: 3px;
   width: 25px;
   border-radius: 3px;
-  background-color:greenyellow;
+  background-color: rgb(33, 228, 215);
   position: absolute;
 }
 .menu-btn span:before {
@@ -148,7 +148,6 @@ s
 }
 
 .menu-content {
-
   margin-left: 70%;
   width: 30%;
   height: 100%;
@@ -157,14 +156,14 @@ s
   top: 0;
   left: 100%;/*leftの値を変更してメニューを画面外へ*/
   z-index: 175;
-  background-color:gray;
+  background-color: rgb(232, 245, 250);
   transition: all 0.5s;/*アニメーション設定*/
 }
 .menu-content ul {
   padding: 70px 10px 0;
 }
 .menu-content ul li {
-  border-bottom: solid 1px yellowgreen;
+  border-bottom: solid 1px rgb(255, 140, 245);
   list-style: none;
 }
 .menu-content ul li a {
@@ -172,11 +171,15 @@ s
   width: 100%;
   font-size: 15px;
   box-sizing: border-box;
-  color:yellowgreen;
+  color:rgb(84, 206, 243);
+  font-weight: bolder;
   text-decoration: none;
   padding: 9px 15px 10px 0;
   position: relative;
 }
+
+
+
 .menu-content ul li a::before {
   content: "";
   width: 7px;
@@ -191,6 +194,11 @@ s
 
 #menu-btn-check:checked ~ .menu-content {
   left: 0;/*メニューを画面内へ*/
+}
+
+.menu-parent{
+  background-color: rgb(210, 239, 250);
+  border-radius: 10%;
 }
 
 #carousel-area ul,li{
