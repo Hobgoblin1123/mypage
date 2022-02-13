@@ -2,6 +2,9 @@ body{
   font-family: "游明朝", "YuMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "ＭＳ Ｐ明朝", "MS PMincho", serif;
   background-image: url("haikei.jpg");
   background-size: cover;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 h1{
