@@ -3,14 +3,22 @@ body{
   background-image: url("haikei.jpg");
   background-size: cover;
   margin-top: 5%;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 h1{
   font-size: larger;
+  font-weight: bolder;
+  margin-bottom: 5%;
 }
 
 p{
   font-size: large;
+  font-weight: bold;
+}
+
+img{
+  width: 40%;
+  height: 30%;
 }
